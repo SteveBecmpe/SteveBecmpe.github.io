@@ -15,8 +15,26 @@ body {
 }
 
 h1{
-    margin-top: 40px;
+   
 }
+
+p{
+
+}
+
 section {
     padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.aboutmeimg {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.aboutbox1 {
+    margin-top: 100px;
 }
