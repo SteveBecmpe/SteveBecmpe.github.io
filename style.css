@@ -15,7 +15,7 @@ body {
 }
 
 h1{
-   
+  margin-left: 15px;
 }
 
 p{
@@ -27,14 +27,17 @@ section {
     background-color: white;
     margin-top: 20px;
 }
-
 .aboutmeimg {
     width: 200px;
     float: left;
     margin-right: 10px;
-
+    margin-left: 15px;
 }
 
 .aboutbox1 {
     margin-top: 100px;
+}
+
+footer {
+    border-top: black;
 }
