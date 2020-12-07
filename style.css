@@ -1,0 +1,22 @@
+footer {
+    float: bottom;
+}
+
+figure img{
+    width: cover;
+    opacity: .2;
+}
+
+body {
+    margin-top: auto;
+    background-image: url(./images/blueskybkgnd1.jpg);
+    background-size: cover;
+    
+}
+
+h1{
+    margin-top: 40px;
+}
+section {
+    padding: 20px;
+}
