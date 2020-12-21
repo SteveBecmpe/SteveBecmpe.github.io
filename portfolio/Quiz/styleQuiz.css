@@ -47,6 +47,41 @@ section {
     margin: 10px;
 }
 
+.SH-Buttons {
+    margin: 2px;
+}
+
 footer {
     border-top: black;
+}
+
+.Questions {
+    display: block;
+}
+
+#StartQuiz {
+    display: block;
+
+}
+
+#Q1 {
+    display: block;
+}
+#Q2 {
+    display: block;
+}
+#Q3 {
+    display: block;
+}
+#Q4 {
+    display: block;
+}
+#Q5 {
+    display: block;
+}
+#Q6 {
+    display: block;
+}
+#Q7 {
+    display: block;
 }

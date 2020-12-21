@@ -44,23 +44,55 @@
     <main>
         <div class="container aboutbox1">
             <section>
-                <h3>Quiz</h3>
+                <h3>Quiz Page, HW Project 4</h3>
                 <hr>
                 <div class="row">
                     <div class="col-md-4 col-sm-6 leftbox1">
                         <button>ViewHighScoreLocation</button>
                     </div>
-                    <div class="col"></div>  
+                    <div class="col"></div>
                     <div class="col-md-4 col-sm-6 rightbox1">
                         <button>TimerPosition</button>
                     </div>
                 </div>
-                <div class="row"> 
-                    <div class="col"></div>   
+                <div class="row">
+                    <div class="col"></div>
                     <div class="col-md-4 col-sm-6 centerbox1">
                         <!--Was aboutbox2-->
                         <p> </p>
-                        <h5>Question</h5>
+                        <h5>Show Hide Sections</h5>
+                        <section class="ShowHideButtons">
+                            <button class="SH-Buttons">Start Quiz</button>
+                            <button class="SH-Buttons">Q1</button>
+                            <button class="SH-Buttons">Q2</button>
+                            <button class="SH-Buttons">Q3</button>
+                            <button class="SH-Buttons">Q4</button>
+                            <button class="SH-Buttons">Q5</button>
+                            <button class="SH-Buttons">All Done</button>
+                            <button class="SH-Buttons">High Score</button>
+                            <button class="SH-Buttons">Reset</button>
+                        </section>
+
+                        <!-- <img src="./images/AboutSmOldTruck.JPG" alt="oldrustytruck" class="aboutmeimg"> -->
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-md-4 leftboxbottom1">
+                        <button>hide</button>
+                    </div>
+                    <div class="col-md-4 rightboxbottom1">
+                        <button>show</button>
+                    </div>
+                </div>
+
+
+                <div class="row" id="StartQuiz"><!--Q0-->
+                    <div class="col"></div>
+                    <div class="col-md-4 col-sm-6 centerbox1">
+                        <p> </p>
+                        <h5>Start Quiz</h5>
                         <section class="Questions">
                             <button class="Answer-Buttons">Answer 1</button>
                             <button class="Answer-Buttons">Answer 2</button>
@@ -68,11 +100,123 @@
                             <button class="Answer-Buttons">Answer 4</button>
                         </section>
 
-                        <!-- <img src="./images/AboutSmOldTruck.JPG" alt="oldrustytruck" class="aboutmeimg"> -->
                     </div>
-                    <div class="col"></div>  
-
+                    <div class="col"></div>
                 </div>
+
+                <div class="row" id="Q1">
+                    <div class="col"></div>
+                    <div class="col-md-4 col-sm-6 centerbox1">
+                        <p> </p>
+                        <h5>Question 1</h5>
+                        <section class="Questions">
+                            <button class="Answer-Buttons">Answer 1</button>
+                            <button class="Answer-Buttons">Answer 2</button>
+                            <button class="Answer-Buttons">Answer 3</button>
+                            <button class="Answer-Buttons">Answer 4</button>
+                        </section>
+
+                    </div>
+                    <div class="col"></div>
+                </div>
+
+                <div class="row" id="Q2">
+                    <div class="col"></div>
+                    <div class="col-md-4 col-sm-6 centerbox1">
+                        <p> </p>
+                        <h5>Question 2</h5>
+                        <section class="Questions">
+                            <button class="Answer-Buttons">Answer 1</button>
+                            <button class="Answer-Buttons">Answer 2</button>
+                            <button class="Answer-Buttons">Answer 3</button>
+                            <button class="Answer-Buttons">Answer 4</button>
+                        </section>
+
+                    </div>
+                    <div class="col"></div>
+                </div>
+
+                <div class="row" id="Q3">
+                    <div class="col"></div>
+                    <div class="col-md-4 col-sm-6 centerbox1">
+                        <p> </p>
+                        <h5>Question 3</h5>
+                        <section class="Questions">
+                            <button class="Answer-Buttons">Answer 1</button>
+                            <button class="Answer-Buttons">Answer 2</button>
+                            <button class="Answer-Buttons">Answer 3</button>
+                            <button class="Answer-Buttons">Answer 4</button>
+                        </section>
+
+                    </div>
+                    <div class="col"></div>
+                </div>
+
+                <div class="row" id="Q4">
+                    <div class="col"></div>
+                    <div class="col-md-4 col-sm-6 centerbox1">
+                        <p> </p>
+                        <h5>Question 4</h5>
+                        <section class="Questions">
+                            <button class="Answer-Buttons">Answer 1</button>
+                            <button class="Answer-Buttons">Answer 2</button>
+                            <button class="Answer-Buttons">Answer 3</button>
+                            <button class="Answer-Buttons">Answer 4</button>
+                        </section>
+
+                    </div>
+                    <div class="col"></div>
+                </div>
+
+                <div class="row" id="Q5">
+                    <div class="col"></div>
+                    <div class="col-md-4 col-sm-6 centerbox1">
+                        <p> </p>
+                        <h5>Question 5</h5>
+                        <section class="Questions">
+                            <button class="Answer-Buttons">Answer 1</button>
+                            <button class="Answer-Buttons">Answer 2</button>
+                            <button class="Answer-Buttons">Answer 3</button>
+                            <button class="Answer-Buttons">Answer 4</button>
+                        </section>
+
+                    </div>
+                    <div class="col"></div>
+                </div>
+
+                <div class="row" id="Q6">
+                    <div class="col"></div>
+                    <div class="col-md-4 col-sm-6 centerbox1">
+                        <p> </p>
+                        <h5>All Done!</h5>
+                        <section class="Questions">
+                            <form id="HSname-form" method="POST">
+
+                            </form>
+                            <button class="Answer-Buttons">input form box</button>
+                            <button class="Answer-Buttons">submit button</button>
+                        </section>
+
+                    </div>
+                    <div class="col"></div>
+                </div>
+
+                <div class="row" id="Q7">
+                    <div class="col"></div>
+                    <div class="col-md-4 col-sm-6 centerbox1">
+                        <p> </p>
+                        <h5>High Scores</h5>
+                        <section class="Questions">
+                            <button class="Answer-Buttons">Go Back</button>
+                            <button class="Answer-Buttons">Clear High Score</button>    
+                        </section>
+
+                    </div>
+                    <div class="col"></div>
+                </div>
+
+
+
 
             </section>
         </div>
@@ -85,6 +229,7 @@
             </div>
         </div>
     </footer>
+    <script src="Quiz.js"></script>
 </body>
 
 </html>
