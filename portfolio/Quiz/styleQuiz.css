@@ -1,0 +1,52 @@
+footer {
+    float: bottom;
+}
+
+figure img{
+    width: cover;
+    opacity: .2;
+}
+
+body {
+    margin-top: auto;
+    background-image: url(./images/blueskybkgnd1.jpg);
+    background-size: cover;
+    
+}
+
+h1{
+  margin-left: 15px;
+}
+
+p{
+
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+.aboutmeimg {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.aboutbox1 {
+    margin-top: 100px;
+}
+
+.aboutbox2 {
+    margin-top: 50px;
+}
+
+.Answer-Buttons {
+    display: block;
+    margin: 10px;
+}
+
+footer {
+    border-top: black;
+}
