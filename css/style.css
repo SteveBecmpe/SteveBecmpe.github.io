@@ -53,3 +53,11 @@ section {
 footer {
     border-top: black;
 }
+
+.blue {
+background-color: rgb(0, 162, 255);
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
