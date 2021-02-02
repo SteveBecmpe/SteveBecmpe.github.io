@@ -65,3 +65,8 @@ p{
 /* title {
     background-color: rgb(3, 55, 65);
 } */
+
+button {
+    border-radius: 5px;
+    margin: 5px;
+}
