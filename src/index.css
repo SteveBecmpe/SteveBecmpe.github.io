@@ -1,0 +1,135 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles covers everything not specifically listed below*/
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  background-image: ;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #065333;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* .home{
+  margin-bottom: 5px;
+} */
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+/* START --------- CARD --------- START */
+
+.Card{
+  border-radius: 15px;
+  border: 1px solid #b1b1b1;
+  margin: 5px;
+
+}
+
+.CardTitle{
+font-size: 25px;
+margin: 2px;
+text-align: center;
+}
+
+.CardBody{
+  font-size: 18px;
+  margin: 2px;
+  text-align: center;
+}
+
+.CardLink{
+  font-size: 18px;
+  margin: 2px;
+  text-align: center;
+}
+
+.CardImage{
+  max-width: 60ch;
+  padding: 5px;
+  margin: 2px;
+  align-items: center;
+}
+
+
+/* END --------- CARD --------- END */
+
+/* Start --------- Link Button --------- START */
+.LinkButton{
+  margin: 5px;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #b19797;
+ 
+}
+/* END --------- Link Button --------- END */
+
+.mainHeader{
+  text-align: center;
+}
+
+.footer {
+  font-size: 10px;
+  /* position: absolute; */
+  bottom: 4px;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-top: 1px solid #f2f2f2;
+  }

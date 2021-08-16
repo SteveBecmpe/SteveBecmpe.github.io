@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SteveBecmpeReactPortfolio/static/css/main.b602308f.chunk.css",
+    "main.js": "/SteveBecmpeReactPortfolio/static/js/main.75972f0d.chunk.js",
+    "main.js.map": "/SteveBecmpeReactPortfolio/static/js/main.75972f0d.chunk.js.map",
+    "runtime-main.js": "/SteveBecmpeReactPortfolio/static/js/runtime-main.d7acd185.js",
+    "runtime-main.js.map": "/SteveBecmpeReactPortfolio/static/js/runtime-main.d7acd185.js.map",
+    "static/js/2.258cd659.chunk.js": "/SteveBecmpeReactPortfolio/static/js/2.258cd659.chunk.js",
+    "static/js/2.258cd659.chunk.js.map": "/SteveBecmpeReactPortfolio/static/js/2.258cd659.chunk.js.map",
+    "index.html": "/SteveBecmpeReactPortfolio/index.html",
+    "static/css/main.b602308f.chunk.css.map": "/SteveBecmpeReactPortfolio/static/css/main.b602308f.chunk.css.map",
+    "static/js/2.258cd659.chunk.js.LICENSE.txt": "/SteveBecmpeReactPortfolio/static/js/2.258cd659.chunk.js.LICENSE.txt",
+    "static/media/CS_WI_Button.46a1a7e7.JPG": "/SteveBecmpeReactPortfolio/static/media/CS_WI_Button.46a1a7e7.JPG",
+    "static/media/Resume_Steve_Black_2021.8b7efc75.pdf": "/SteveBecmpeReactPortfolio/static/media/Resume_Steve_Black_2021.8b7efc75.pdf",
+    "static/media/SickTuneFinder.591f22a7.JPG": "/SteveBecmpeReactPortfolio/static/media/SickTuneFinder.591f22a7.JPG",
+    "static/media/WeatherAPP.b3b0cc9a.JPG": "/SteveBecmpeReactPortfolio/static/media/WeatherAPP.b3b0cc9a.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7acd185.js",
+    "static/js/2.258cd659.chunk.js",
+    "static/css/main.b602308f.chunk.css",
+    "static/js/main.75972f0d.chunk.js"
+  ]
+}

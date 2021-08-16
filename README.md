@@ -1,166 +1,143 @@
-# Project: Update the portfolio.
 
-- [X] Update font to something easier to read.
-- [X] added links to community social and networking sites
-- [/] updated resume. NOT Linked.
-- [X] update readme file.
+# SteveBecmpe React Portfolio
+ 
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)   
 
+  ### Table of Contents:
+  -[Description](#Description)      
+  -[Installation Instructions](#Installation)    
+  -[Usage Information](#Usage)    
+  -[Contribution guidelines](#Contributing)    
+  -[Given Instructions](#Given)
+  
+  ## Description    
+  "React Version of current portfolio. 
+  Focused mainly on basic functionality and deployment. 
+  The deployment seems to be plagued with issues across platforms and user setting preferences. 
+  I chose to only deploy once and add the readme after. 
+  This app starts on a blank page. Which is unintended and the result of the development process crossed with the deployment process. 
+  Simply choosing home or projects gets the links in sink.
+  
+  ## Installation    
+  No installation required to run deployed version.
+  
+  ## Usage    
+    Currently use and view at your own risk. 
+    
+  ## License   
+  Apache 2.0 License    
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)   
+  Hold "Ctrl" and Click the license badge and it will take you to the website.     
+  
+  
+  ## Contributing 
+    Required content from class.   
 
-# Unit 08 Project 1 Homework: Professional Materials
+  ## Questions: 
+  GitHub: https://github.com/SteveBecmpe     
+  For issues that are not covered here or at the GitHub repo or for more information contact me at the email address below:   
+  steveblackecmpe@gmail.com    
+  
+## Given       
+# Unit 20 React Homework: React Portfolio
 
-Now that you've had some practice with APIs and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer-competitive.
+Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
 
-If you are opting out of career services, this is _still a required assignment_. Part of being a web developer means being a part of a community. Having a place to share your projects is _necessary_ if you're applying for jobs, but it's also _critical_ on your journey as a developer.
+If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
 
 ## Requirements
 
-* Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
+* Updated portfolio featuring 6 total projects
 
-* Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+* Use React
 
-* Submit an updated resume
+* A `Header` component that appears on multiple pages
 
-* Submit an updated LinkedIn profile
+* A single `Project` component that will be used multiple times on a single page 
+
+* Navigation with React Router, dynamic rendering, or another third part router
+
+* A `Footer` component that appears on multiple pages
+
+* Update GitHub profile with pinned repositories featuring those same projects
+
+* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
+
+* **Important**: Be sure to push your codebase to GitHub and **NOT** your built and deployed code. Ensure this happens by following the above instructions and using the `gh-pages` branch to host the deployed application's code.
 
 ## Grading
 
-| Requirement      | Weight |
-| ---------------- | ------ |
-| Portfolio        | 40%    |
-| GitHub Profile   | 40%    |
-| Resume           | 10%    |
-| LinkedIn Profile | 10%    |
+| Requirement    | Weight |
+| -------------- | ------ |
+| Portfolio      | 90%    |
+| GitHub Profile | 10%    |
+
 
 ## Instructions
 
-1. [Updated Portfolio](#updated-portfolio)
-2. [GitHub Profile](#updated-github-profile)
-3. [Updated Resume](#updated-resume)
-4. [Updated LinkedIn](#updated-linkedin)
+* [Updated Portfolio](#updated-portfolio)
 
-## Updated Portfolio
+* [Design](#design)
 
-💁 Need help updating your Portfolio? Check out the [Career Services milestone resources for online presence](hhttps://sites.google.com/2u.com/careerservices-webdev/coding-milestones/milestone-polish-online-presence).
+* [React](#react)
 
-Your updated portfolio should:
+* [Updated LinkedIn Profile](#updated-linkedin-profile)
 
-1. Display your full name, email, and phone number
+### Updated Portfolio
 
-2. Have links to your GitHub profile and LinkedIn profile
+Your updated site should still have all of the content it previously had:
 
-3. Have a link to a downloadable PDF of your resume
+* Your name
 
-4. Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
+* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
 
-    * Project title
+* A link to a PDF of your resume with updated projects
 
-    * Link to the deployed version
+* A list of projects. For each project, make sure you have the following:
 
-    * Link to the GitHub repository
+  * Project title
 
-    * Screenshot of the deployed application
+  * Link to the deployed version
 
-5. Have a polished, mobile-responsive user interface.
+  * Link to the GitHub repository
 
-### Design
+  * GIF or screenshot of the deployed application
 
-Unfortunately, this is where it gets a little bit subjective. Your site should look
+
+#### Design
+
+As with the previous portfolio homework, "good" design is subjective. Your site should look
 "polished." Here are a few guidelines on what that means:
 
 * Mobile-first design
 
-* Choose a color palette for your site so it doesn't just look like
-  the default bootstrap theme or an unstyled HTML site.
+* Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
 
 * Make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
-## Updated GitHub Profile
+* If you want to go above and beyond, try using animations and react component libraries. Note 
+that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
 
-Employers (and potential collaborators) _will_ look at your GitHub profile, so put your best face forward. 
+### React
 
-Your GitHub profile must contain at least the following items:
+Additionally, this new portfolio should be created using React.
 
-1. Professional profile picture
+At a minimum, your portfolio should include the following:
 
-   * A photo or an image other than the default Github identicon. (a semi-professional to professional photo or an avatar photo are preferred)
+* A `Header` component that appears on multiple pages
 
-2. Biography
+* A single `Project` component that will be used multiple times on a single page 
 
-3. Your current location
+* Navigation with React Router, dynamic rendering, or another third part router
 
-4. Email address
+* A `Footer` component that appears on multiple pages
 
-5. Link to your deployed portfolio
+* **Important**: If you use React Router, you will **NOT** be able to use the `<BrowserRouter>` component on GitHub Pages. Read the [GitHub note on client-side routing](https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing) and the [React Router documentation on HashRouter](https://reactrouter.com/web/api/HashRouter) for more information.
 
-6. At least 2 pinned repositories:
 
-   * Navigate to [GitHub](https://github.com/) and go to your profile.
+### Updated LinkedIn Profile 
 
-   * Click "Customize your pins"
+Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
 
-   * Click the checkboxes for your project and 2-3 homework assignments that you would like to share
-
-7. Follow a few of your classmates. They are the beginning of your professional network and being a developer is as much about being a part of the community as it is writing code.
-
-8. README files. Every pinned project should contain a README file with:
-
-   * Title of app
-   * Live link to deployed app
-   * List of technologies used
-   * 1-2 sentences explaining what the app is
-   * 2-3 Screenshots / gifs of the app
-   * License (usually MIT)
-   * Contact information for you and any collaborators
-
-9. Commit history. Every pinned repository should have at least 20 commits.
-
-### 3. Updated Resume
-
-💁 Need help building a resume? Check out the [Career Services milestone resources](https://sites.google.com/2u.com/careerservices-webdev/coding-milestones/milestone-develop-your-resume).
-
-Submit a clear, concise, and compelling resume, tailored to the type of job you’re looking for.
-
-Your resume should include:
-
-* a heading with your name, phone number, professional email address, links to LinkedIn, portfolio and GitHub
-
-* a technical skills section, with all programming languages and technologies listed
-
-* 3 of your strongest projects/homework assignments with brief description, languages used, and URL
-
-### 4. Updated LinkedIn
-
-💁 Need help updating your LinkedIn? Check out the [Career Services milestone resources for online presence](https://sites.google.com/2u.com/careerservices-webdev/coding-milestones/milestone-polish-online-presence).
-
-Update your LinkedIn Profile with a strong bio statement, a professional photo, and links to your Github and portfolio.
-
-### ⭐ 5. For Job-Seeking Students (BONUS)
-
-If you are a job-seeking student, then getting yourself marked as employer-ready is an important step to take because you'll get:
-
-* added to our employer referral list, where we'll help match you with employers for interviews
-
-* exclusive access to workshops for employer-ready students
-
-* a statistically higher success rate in your job search
-
-So if you're going to be looking for a job at the end of your boot camp, go ahead and submit these updated items to your Career Materials Advisor (formerly Profile Coach) via BootCampSpot.
-
----
+- - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
-
-<hr>
-
-# Original Submission Readme file before I knew anything about mark down and readme..
-
-BootStrap Personal page:
--this project was to learn and demostrate the use and power of bootstrap.
--honestly i ran out of time... I struggle a ton with is HW asignment and didn't have time to get the help i needed. Shame on me. I will be getting a tutor in the future.
--I did change how use the readme file and switch my single line comments from the readme file to the commit comments and attempted to commit often. 
--the hardest part for me was not using CSS... I got used to that and it was hard to switch to using the bootstrap class structure.. with more time I would get the hang of it.
--I only used one image on the portfolio page to get the structure and content reaction..
--I did choose to over write the prework about me page repo with this one as It will be my show piece going forward.
-    + obviouly i need to do more work to actually call it a show peice.
--I ran all the files through a validator and fixed all the issues.
--well its 1130pm and i am going to do a final commit/push and see what the page looks like live and submit the urls.
-- thanks,
