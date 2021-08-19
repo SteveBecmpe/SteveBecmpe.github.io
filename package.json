@@ -13,7 +13,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
   },
-  "homepage": "https://stevebecmpe.github.io/SteveBecmpeReactPortfolio/",
+  "homepage": "https://stevebecmpe.github.io/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build -b gh-pages",
